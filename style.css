@@ -1,0 +1,125 @@
+
+#header-nav{
+	background-color: grey;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-brand{
+	padding: 4px;
+	margin-top: 0px;
+
+	
+}
+#header-nav .navbar-brand h1{
+	color: black;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 10px;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+
+	text-decoration: none;
+}
+#nav-list 
+{
+	color: black;
+	text-align: center;
+	font-size: 15px;
+	background-color: white;
+}
+#nav-list a:hover {
+	background: grey;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid black;
+}
+.navbar-head .navbar-toggle button{
+	clear: both;
+}
+#nav-list{
+	padding: 10px;
+}
+/**************** could be media quary here***************/
+.navbar-brand{
+	padding-top: 10px
+	height: 80px;
+}
+.navbar-brand h1{
+	padding-top: 10px;
+	font-size: 4vw;
+}
+
+
+/*************MAIN CONTENT **************/
+#main-content h1{
+	text-align: center;
+	font: 35px;
+	color: black;
+}
+#chicken, #meat, #sushi{
+	
+	height: 1000px;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	background-color: grey;
+	overflow: hidden;
+
+}
+#chicken h2, #meat h2, #sushi h2{
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.6em;
+	width: 100%;
+	top: 0;
+	margin-bottom: 5px;
+
+}
+
+#chicken p, #meat p, #sushi p{
+	font-size: 1.2em;
+	padding: 10px;
+
+}
+#chicken a, #meat a, #sushi a{
+	font-size: 1.4em;
+	text-transform: uppercase;
+
+}
+/****************LARGE DEVICE****************/
+@media(min-width:1200px){
+	#header-nav .navbar-brand h1{
+		font-size: 3vw;
+	}
+
+}
+
+/***************MEDIUM DEVICE****************/
+@media(min-width:992px max-width: 1199px){
+	#header-nav .navbar-brand h1{
+		font-size: 5vw;
+	}
+}
+
+/***************SMALL DEVICE****************/
+@media(min-width:768px max-width: 991px){
+
+	#header-nav .navbar-brand h1{
+		font-size: 4vw;
+	}
+}
+
+/***************EXTRA SMALL DEVICE****************/
+@media(max-width: 991px){
+
+	#header-nav .navbar-brand h1{
+		font-size: 4vw;
+	}
+}
+
